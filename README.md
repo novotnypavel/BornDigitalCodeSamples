@@ -1,4 +1,4 @@
-# BornDigitalCodeSamples
+# Born Digital Code Samples
 Sample python scripts and code snippets from my previous works
 
 - `books_recommendation`: task to build / show a simple recommendation engine (as part of job application)
