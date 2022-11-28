@@ -8,7 +8,7 @@
 - Some parts (specially in test data preprocessing) could have been coded neater
 
 
-
+## Other sample scripts
 Sample python scripts and code snippets from my previous works
 
 - `books_recommendation`: task to build / show a simple recommendation engine (as part of job application)
