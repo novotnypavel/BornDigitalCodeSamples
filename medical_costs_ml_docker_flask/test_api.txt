@@ -1,0 +1,9 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '[{"age":61,"sex":"female","bmi":29.1,"children":0,"smoker":"yes","region":"northwest"},{"age":61,"sex":"male","bmi":29.1,"children":0,"smoker":"no","region":"northeast"},{"age":61,"sex":"male","bmi":29.1,"children":0,"smoker":"no","region":"southeast"},{"age":61,"sex":"male","bmi":29.1,"children":0,"smoker":"no","region":"southwest"}]' \http://0.0.0.0:8000/predict
+
+
+
+curl --header "Content-Type: application/json" \
+--request POST \
+--data '[{"age":61,"sex":"female","bmi":29.1,"children":0,"smoker":"yes","region":"northwest"}]' \http://0.0.0.0:8000/predict
