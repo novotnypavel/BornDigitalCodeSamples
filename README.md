@@ -1,4 +1,14 @@
 # Born Digital Code Samples
+
+## Medical_costs_ml_docker_flask
+- Simpe ML model predicts medical costs of healthcare insurance companies of their patients (RF regressor)
+- Flask was used to build API for model serving
+- Dockerfile is included to build docker image from it
+- * The API works, however a bug with pickle prevents the model from predicting when trying to preprocess the test data, has to be fixed.
+- Some parts (specially in test data preprocessing) could have been coded neater
+
+
+## Other sample scripts
 Sample python scripts and code snippets from my previous works
 
 - `books_recommendation`: task to build / show a simple recommendation engine (as part of job application)
